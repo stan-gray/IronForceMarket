@@ -59,3 +59,24 @@
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
     right: 0px; 
 }
+
+.click {
+    padding: 15px 25px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #fed136;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.click:active {background-color: #fed136}
+
+.click:hover {
+  background-color: #fed136;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
